@@ -27,6 +27,7 @@
         <!--DocumentationFile>"bin/$(Configuration)/$(TargetFramework)/$(AssemblyName).xml</DocumentationFile-->
     </PropertyGroup>
 
+    
     <PropertyGroup Condition="'$(Configuration)'=='Release'">
         <DebugType>none</DebugType>
         <DebugSymbols>False</DebugSymbols>
